@@ -1,0 +1,80 @@
+/* .postdetailsimg{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.postdetailsimg>img{
+    width: 70%;
+    max-height: 90vh;
+    object-fit: cover;
+    border-radius: 10px;
+} */
+.div-post {
+    width: 70%;
+
+}
+
+.img-post {
+    object-fit: cover;
+    width: 100%;
+    height: 85vh;
+}
+
+.titlediv {
+    border: 2px solid #ff5454;
+    border-radius: 5px;
+}
+
+.divbutton {
+    text-align: right !important;
+}
+
+.divbutton>.approvebtn {
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px 18px;
+    border: 2px solid rgba(14, 149, 11, 1);
+    color: rgba(14, 149, 11, 1);
+    transition: .7s;
+}
+
+.divbutton>.approvebtn:hover {
+    background-color: rgba(14, 149, 11, 1);
+    border-radius: 5px;
+    padding: 5px 18px;
+    box-shadow: rgba(149, 157, 165, 0.421) 0px 6px 20px;
+    border: 2px solid rgba(14, 149, 11, 1);
+    color: white;
+}
+
+.divbutton>.rejectbtn {
+    transition: .7s;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px 18px;
+    border: 2px solid rgba(251, 19, 19, 1);
+    color: rgba(251, 19, 19, 1);
+    margin-left: 2px;
+}
+
+.divbutton>.rejectbtn:hover {
+    background-color: rgba(251, 19, 19, 1);
+    border-radius: 5px;
+    padding: 5px 18px;
+    box-shadow: rgba(149, 157, 165, 0.421) 0px 6px 20px;
+    border: 2px solid rgba(251, 19, 19, 1);
+    color: white;
+    margin-left: 2px;
+}
+
+.titlecolor {
+    font-size: xx-large;
+    font-weight: 1000 !important;
+    color: #ff5454;
+}
+
+
+.h-100{
+    height: 85vh !important;
+}

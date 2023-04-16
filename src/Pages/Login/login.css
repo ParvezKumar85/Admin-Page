@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.signup-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.login-container {
+  border: 2px solid blue;
+  padding: 50px;
+  border-radius: 10px;
+}
+.input-box{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.input{
+    width: 100%;
+    outline: none;
+    border: none;
+    border: 1px solid blue;
+    border-radius: 5px;
+    padding: 5px;
+    color: blue;
+}
+.input::placeholder{
+    color: blue;
+}
+.alert-div{
+    position: absolute;
+    bottom: 0px;
+}
+.signIN{
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+}
+.title{
+    color: blue;
+}

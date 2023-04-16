@@ -1,0 +1,27 @@
+.name {
+    color: #ff5454;
+}
+
+.profile {
+    margin-top: 10px;
+   border: 2px solid #ff5454;
+    width: 150px;
+    height: 150px;
+}
+
+/* .card{
+    border: 2px solid #ff5454c8;
+} */
+.btnview{
+    color: #ff5454;
+    border-radius: 5px;
+    border: 2px solid #ff5454;
+    background-color: white;
+    padding: 8px 15px;
+    transition: 1s;
+    font-weight: bolder;
+}
+.btnview:hover{
+    background-color: #ff5454;
+    color: white;
+}
